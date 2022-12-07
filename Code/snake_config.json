@@ -1,0 +1,32 @@
+{
+    "dir": {
+        "sampled": "sampled/",
+        "vcfs": "vcfs/",
+        "draws": "draws/",
+        "af_vcf": "af_vcf/",
+        "reduced": "reduced_vcf/",
+        "beds": "beds/",
+        "pop_spec": "pop_spec_bed/",
+        "pop_spec_vcf": "pop_spec_vcf",
+        "csvs": "csvs/",
+        "uploaded": "uploaded/",
+        "singleton_positions": "singleton_positions/",
+        "create_position": "singleton_pos_file/",
+        "singleton_csvs": "singleton_csvs/"
+    },
+    "app": {
+        "drawer": "select_individuals.sh",
+        "csv_converter": "scripts/scripts/vcf_to_matrix_cli.py",
+        "uploader":"scripts/scripts/uploader_cli.py",
+        "bcftools": "bcftools",
+        "vcftools": "vcftools",
+        "bedtools": "bedtools",
+        "tabix": "tabix",
+        "bgzip": "bgzip"
+    },
+    "seeds": [
+        1,
+        2,
+        3
+    ]
+}
